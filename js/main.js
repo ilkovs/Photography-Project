@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Andrea Ilkov.", "Designer.", "Freelancer.", "Photographer"],
+      strings: ["Andrea Ilkov.", "Designer.", "Freelancer.", "Photographer", "Traveler"],
       typeSpeed: 100,
       loop: true,
     });
@@ -152,27 +152,26 @@ $(document).ready(function() {
 
   // FORMSPREE EMAILING
 
-  $(".paddsection").submit(function(e) {
-    var name = document.getElementById("name")
-        email = document.getElementById("email"),
-        phoneNumber = document.getElementById("phoneNumber"),
-        message = document.getElementById("message");
+  // $(".paddsection").submit(function(e) {
+  //   var name = document.getElementById("name")
+  //       email = document.getElementById("email"),
+  //       phoneNumber = document.getElementById("phoneNumber"),
+  //       message = document.getElementById("message");
 
-      if (!name.value || !email.value || !phoneNumber.value || !message.value) {
-        alertify.error("Please check your entries.")
-      } else {
-        $.ajax({
-          url: "https://formspree.io/ilkovphotography@gmail.com",
-          method: "POST",
-          data: $(".paddsection").serialize(),
-          dataType: "JSON"
-        });
-        e.preventDefault();
-        $(this).get(0).reset()
-      }
+  //     if (!name.value || !email.value || !phoneNumber.value || !message.value) {
+  //       alertify.error("Please check your entries.")
+  //     } else {
+  //       $.ajax({
+  //         url: "https://formspree.io/ilkovphotography@gmail.com",
+  //         method: "POST",
+  //         data: $(".paddsection").serialize(),
+  //         dataType: "JSON"
+  //       });
+  //       e.preventDefault();
+  //       $(this).get(0).reset()
+  //     }
 
-  })
-
+  // })
 
   // Call the functions
   magnifPopup();
