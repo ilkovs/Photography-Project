@@ -442,6 +442,8 @@ nav ul li a {
 
 #portfolio .portfolio-list {
   margin-bottom: 50px;
+  position: relative;
+  z-index: -1;
 }
 
 #portfolio .portfolio-list .nav {
@@ -490,7 +492,6 @@ nav ul li a {
 
 .portfolio-thumbnail img {
   max-width: 100%;
-  overflow: hidden;
 }
 
 /*-----------------------------------------------------------------------------------*/
