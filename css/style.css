@@ -491,6 +491,7 @@ nav ul li a {
 .portfolio-thumbnail img {
   max-width: 100%;
   z-index: 1;
+  position: relative;
 }
 
 /*-----------------------------------------------------------------------------------*/
