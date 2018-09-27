@@ -436,8 +436,8 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #portfolio {
-  position: auto 0;
-  padding-bottom: 50px;
+  position: relative;
+ 
 }
 
 #portfolio .portfolio-list {
@@ -490,6 +490,7 @@ nav ul li a {
 
 .portfolio-thumbnail img {
   max-width: 100%;
+  z-index: 1;
 }
 
 /*-----------------------------------------------------------------------------------*/
