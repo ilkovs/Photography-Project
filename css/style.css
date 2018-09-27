@@ -490,7 +490,7 @@ nav ul li a {
 
 .portfolio-thumbnail img {
   max-width: 100%;
-  display: inline-block;
+  overflow: hidden;
 }
 
 /*-----------------------------------------------------------------------------------*/
