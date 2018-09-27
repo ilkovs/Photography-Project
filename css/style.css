@@ -436,7 +436,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #portfolio {
-  position: relative;
+  position: auto 0;
   padding-bottom: 50px;
 }
 
