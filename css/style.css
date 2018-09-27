@@ -442,8 +442,6 @@ nav ul li a {
 
 #portfolio .portfolio-list {
   margin-bottom: 50px;
-  position: relative;
-  z-index: -1;
 }
 
 #portfolio .portfolio-list .nav {
