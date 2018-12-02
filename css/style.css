@@ -628,7 +628,6 @@ nav ul li a {
 
 #footer .socials-media ul {
   display: inline-block;
-  float: none;
   margin: 0 0 20px 0;
 }
 
@@ -672,3 +671,11 @@ nav ul li a {
 .credits {
   font-size: 13px;
 }
+
+.text-center {
+  /* display: table; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
